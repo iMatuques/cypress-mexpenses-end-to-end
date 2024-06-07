@@ -1,0 +1,17 @@
+{
+  "name": "mexpenses-e2e",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy": "cypress open",
+    "cypress:web": "npx cypress open",
+    "cypress:headless": "npx cypress run --browser edge"
+  },
+  "author": "ingrid matuques",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^13.10.0"
+  }
+}
